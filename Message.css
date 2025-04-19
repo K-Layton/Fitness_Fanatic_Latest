@@ -1,0 +1,11 @@
+.Conversations{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+
+.Conversation{
+    position: absolute;
+    right: 20%;
+    top: 20%;
+}

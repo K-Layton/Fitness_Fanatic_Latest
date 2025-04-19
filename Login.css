@@ -1,0 +1,71 @@
+body{
+    background: radial-gradient(circle at top, lavenderblush, tan)
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    box-shadow: 0 1.5px 30px rgba(0.5, 0.5, 0.5, 0.7);
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    background: rosybrown;
+}
+
+label{
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    font-size: 22px;
+    text-shadow: 0.1px 0.1px 0.1px black;
+    font: 'Roboto';
+    color: black;
+}
+
+input {
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 20px;
+    font: 'Roboto';
+}
+
+button{
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 7px 20px rgba(0.5, 0.5, 0.5, 0.7);
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+.Left{
+    position: absolute;
+    left: 0px;
+    top: 20%;
+}
+
+.Right{
+    position: absolute;
+    right: 2%;
+    top: 30%;
+}
+
+.GuyFitness{
+    width: 700px;
+    height: auto;
+}
+
+.Smiley{
+    width: 500px;
+    height: auto;
+}
+
+.Welcome{
+    font-size: 60px;
+    margin-top: 5px;
+    padding: 25px;
+}
