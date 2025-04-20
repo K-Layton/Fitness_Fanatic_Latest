@@ -1,0 +1,11 @@
+.FriendList{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+
+.SearchFriend{
+    position: absolute;
+    right: 20%;
+    top: 20%;
+}
